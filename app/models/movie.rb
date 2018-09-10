@@ -1,4 +1,4 @@
 class Movie < ApplicationRecord
-    varidales :title, presence: true
-    varidales :content, presence: true
+    validates :title, presence: true
+    validates :content, presence: true
 end
