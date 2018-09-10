@@ -16,5 +16,5 @@
 
 - Generate datas, go to db > seeds.rb, add `10.times do Articles.create({ title: Faker::Book.title, body: Faker::Lorem.sentence }) end`, then run `rails db:seed`
 
-- Create folder api to app > comtrollers. Then create folder for version.
+- Create folder api to app > controllers. Then create folder for version.
 
