@@ -1,6 +1,6 @@
 # Ruby (RoR) REST API
 
-# Todo List (CRUD API)
+## Todo List (CRUD API)
 
 - [ ] CREATE
 - [X] READ, GET
@@ -8,7 +8,7 @@
 - [ ] DELETE
 - [ ] CHANGE DATABASE
 
-# Start Project API
+## Start Project API
 
 - run `rails new 'Project Name' --api`
 - if you want to change database (by default is sqlite3), go to config > locales > database.yml, then change that file.
@@ -20,7 +20,7 @@
 
 - Create folder api to app > controllers. Then create folder for version.
 
-# Useful Rails Commands
+## Useful Rails Commands
 
 `rails new foo`
 Creates a new Rails applications in subdirectory foo.
