@@ -69,5 +69,6 @@ Updates Ruby to the latest version. This command does not always appear to work 
 
 ## Links
 
+- http://ruby-for-beginners.rubymonstas.org/index.html
 - https://www.youtube.com/watch?v=QojnRc7SS9o&t=1383s
 - https://web.stanford.edu/~ouster/cgi-bin/cs142-winter15/railsCommands.php
