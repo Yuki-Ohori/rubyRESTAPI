@@ -25,19 +25,19 @@
 `rails new foo`
 Creates a new Rails applications in subdirectory foo.
 
-`rails server`
+`rails server (s)`
 Starts up a Web server on port 3000 running the current application; log messages from the server will appear on standard output.
 
 `rails console`
 Starts up a Rails application in interactive mode (you can type commands on the console); doesn't actually start a Web server. This command is convenient if you want to type commands interactively to test their behavior.
 
-`rails generate controller foo a b`
+`rails generate (g) controller foo a b`
 Creates a new controller class FooController with a skeleton class definition in app/controllers/foo_controller.rb. It also creates skeleton action methods a and b in the controller, plus skeleton views in the files app/views/foo/a.html.erb and app/views/foo/a.html.erb. If a and b are omitted then the controller is created with no actions or views.
 
-`rails generate model foo`
+`rails generate (g) model foo`
 Creates a new model class Foo with a skeleton class definition in app/models/foo.rb and a skeletal migration in db/migrate/*_create_foos.rb.
 
-`rails generate migration foo`
+`rails generate (g) migration foo`
 Creates a new migration in the file db/migrate/*_foo.rb.
 
 `rails destroy model foo`
