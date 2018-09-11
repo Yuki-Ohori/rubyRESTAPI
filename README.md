@@ -67,3 +67,7 @@ Updates Rails to the latest version, including all Gems that Rails depends upon.
 `gem update --system`
 Updates Ruby to the latest version. This command does not always appear to work on Macintoshes.
 
+## Links
+
+- https://www.youtube.com/watch?v=QojnRc7SS9o&t=1383s
+- https://web.stanford.edu/~ouster/cgi-bin/cs142-winter15/railsCommands.php
