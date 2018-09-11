@@ -1,4 +1,4 @@
-# rubyRESTAPI
+# Ruby (RoR) REST API
 
 # Todo List (CRUD API)
 
