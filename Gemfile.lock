@@ -72,6 +72,7 @@ GEM
     nio4r (2.3.1)
     nokogiri (1.8.4-x64-mingw32)
       mini_portile2 (~> 2.3.0)
+    pg (1.1.3-x64-mingw32)
     puma (3.12.0)
     rack (2.0.5)
     rack-test (1.1.0)
@@ -126,6 +127,7 @@ DEPENDENCIES
   bootsnap (>= 1.1.0)
   byebug
   faker
+  pg
   puma (~> 3.11)
   rails (~> 5.2.1)
   sqlite3
