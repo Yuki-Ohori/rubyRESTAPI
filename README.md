@@ -11,6 +11,7 @@
 ## DEPLOY HEROKU TEST
 
 When the app is slow, because it is sleeping, please wait..
+Test using `Postman` 
 
 - READ ALL
 https://yukirubyapi.herokuapp.com/api/v1/movies
@@ -19,9 +20,9 @@ https://yukirubyapi.herokuapp.com/api/v1/movies/1
 - CREATE (POST, :title :content)
 https://yukirubyapi.herokuapp.com/api/v1/movies
 - UPDATE (PUT, :title :content)
-https://yukirubyapi.herokuapp.com/api/v1/movies
+https://yukirubyapi.herokuapp.com/api/v1/movies/20
 - DELETE (DELETE, :id)
-https://yukirubyapi.herokuapp.com/api/v1/movies/1
+https://yukirubyapi.herokuapp.com/api/v1/movies/2
 
 ## Start Project API
 
@@ -100,6 +101,8 @@ production:
 - add-ons Heroku Postgres :: Database
 
 - Heroku run rake db:migrate
+
+- Heroku run rake db:seed
 
 ## Links
 
