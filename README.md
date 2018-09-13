@@ -2,10 +2,10 @@
 
 ## Todo List (CRUD API)
 
-- [ ] CREATE
+- [X] CREATE
 - [X] READ, GET
-- [ ] UPDATE
-- [ ] DELETE
+- [X] UPDATE
+- [X] DELETE
 - [ ] CHANGE DATABASE
 
 ## Start Project API
