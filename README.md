@@ -6,7 +6,22 @@
 - [X] READ, GET
 - [X] UPDATE
 - [X] DELETE
-- [ ] CHANGE DATABASE
+- [X] DEPLOY HEROKU
+
+## DEPLOY HEROKU TEST
+
+When the app is slow, because it is sleeping, please wait..
+
+- READ ALL
+https://yukirubyapi.herokuapp.com/api/v1/movies
+- GET (GET, :id)
+https://yukirubyapi.herokuapp.com/api/v1/movies/1
+- CREATE (POST, :title :content)
+https://yukirubyapi.herokuapp.com/api/v1/movies
+- UPDATE (PUT, :title :content)
+https://yukirubyapi.herokuapp.com/api/v1/movies
+- DELETE (DELETE, :id)
+https://yukirubyapi.herokuapp.com/api/v1/movies/1
 
 ## Start Project API
 
