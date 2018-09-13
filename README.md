@@ -82,6 +82,25 @@ Updates Rails to the latest version, including all Gems that Rails depends upon.
 `gem update --system`
 Updates Ruby to the latest version. This command does not always appear to work on Macintoshes.
 
+## Deploy Heroku
+
+- Gemfile
+```
+gem 'sqlite3', group: [:development, :test]
+gem 'pg', group: :production
+```
+- config/database.yml
+```
+production:
+  <<: *default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+```
+- add-ons Heroku Postgres :: Database
+
+- Heroku run rake db:migrate
+
 ## Links
 
 - https://www.tutorialspoint.com/ruby-on-rails/rails-introduction.htm
