@@ -1,0 +1,2 @@
+class Homeapi < ApplicationRecord
+end
