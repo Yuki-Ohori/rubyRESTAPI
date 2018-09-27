@@ -12,7 +12,7 @@ require "action_view/railtie"
 require "action_cable/engine"
 # require "sprockets/railtie"
 require "rails/test_unit/railtie"
-
+require './lib/middleware/consider_all_request_json_middleware'
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
@@ -30,9 +30,10 @@ module RubyRESTAPI
     # Only loads a smaller set of middleware suitable for API only apps.
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
-    config.action_dispatch.default_headers = {
-      'Access-Control-Allow-Origin' => '*',
-      'Access-Control-Request-Method' => %w{GET POST OPTIONS}.join(",")
-    }
+    config.middleware.insert_before(ActionDispatch::Static,ConsiderAllRequestJsonMiddleware)
+    # config.action_dispatch.default_headers = {
+    #   'Access-Control-Allow-Origin' => '*',
+    #   'Access-Control-Request-Method' => %w{GET POST OPTIONS}.join(",")
+    # }
   end
 end
